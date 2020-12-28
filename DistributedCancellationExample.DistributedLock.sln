@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistributedCancellationExample.DistributedLock", "DistributedCancellationExample.DistributedLock\DistributedCancellationExample.DistributedLock.csproj", "{E15C03DF-4BAD-4C9D-9665-E96AED320221}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DistributedCancellation", "..\DistributedCancellation\DistributedCancellation.vbproj", "{71363339-BA05-45C7-B883-0D9A8E46A5CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E15C03DF-4BAD-4C9D-9665-E96AED320221}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E15C03DF-4BAD-4C9D-9665-E96AED320221}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E15C03DF-4BAD-4C9D-9665-E96AED320221}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E15C03DF-4BAD-4C9D-9665-E96AED320221}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71363339-BA05-45C7-B883-0D9A8E46A5CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71363339-BA05-45C7-B883-0D9A8E46A5CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71363339-BA05-45C7-B883-0D9A8E46A5CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71363339-BA05-45C7-B883-0D9A8E46A5CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E8951C8-FB6C-48C7-91F6-803CB1126C9C}
+	EndGlobalSection
+EndGlobal
